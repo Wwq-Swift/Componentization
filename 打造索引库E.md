@@ -9,7 +9,10 @@
   
  ### 2.远程私有索引库
  1. pod repo add 地址        将远程私有库克隆到本地
- 2.
+ 2. pod lib create 库名称      核心代码拉入库中，    pod install 测试一下
+ 3. git add.      git commit -m ‘’    git remote add origin 对应的url     git push origin master   git tag ‘tag值’    git push -tags
+ 4. pod lib lint     和  pod spec lint   和 pod repo push 库名称.spec          本地远程都进行校验  然后提交spec 文件 
+ 3. 
 
 
 
